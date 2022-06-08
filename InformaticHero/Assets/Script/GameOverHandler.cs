@@ -12,7 +12,7 @@ public class GameOverHandler : MonoBehaviour
     }
     public void restartButton()
     {
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene("Stage2");
     }
 
 }
