@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d3708adf46d1b44caa0986207c04bfe, type: 3}
-  m_Name: -8
+  m_Script: {fileID: 11500000, guid: a3bdcf98f27c98343a7506cd69515832, type: 3}
+  m_Name: stage5
   m_EditorClassIdentifier: 
-  number: 8
-  operators: '-'
+  angkaUtama: 121
+  angkaTujuan: 99

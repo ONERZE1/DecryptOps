@@ -902,7 +902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -279, y: -25}
+  m_AnchoredPosition: {x: -408, y: -21}
   m_SizeDelta: {x: 127.3813, y: 127.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596541333
@@ -1196,7 +1196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 465, y: -25}
+  m_AnchoredPosition: {x: 438, y: -21}
   m_SizeDelta: {x: 127.3813, y: 127.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &887551306
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: d7ec27b8664b6714b899f0e215e8eebe, type: 2}
+  modifier: {fileID: 11400000, guid: 0e1ddf8d1fa8f714ba8559bb5bdefdc2, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &887551308
@@ -1249,7 +1249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b8a17a7f15651dd43887a66b0af29dbf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96a34901f561b9c48806932fba73ea28, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1591,7 +1591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 257, y: -22}
+  m_AnchoredPosition: {x: 151, y: -21}
   m_SizeDelta: {x: 125.0671, y: 125.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1227584668
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angkaDisplay: {fileID: 242058736}
-  nomor: {fileID: 11400000, guid: 1d16db63dd1baea4dbb77e639bdc0c0e, type: 2}
+  nomor: {fileID: 11400000, guid: 0d60eed2a26861a488cd110f1997b9b0, type: 2}
   angkaUtama: 0
   angkaTujuan: 0
 --- !u!1 &1412448481
@@ -2720,7 +2720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: -18}
+  m_AnchoredPosition: {x: -121, y: -23}
   m_SizeDelta: {x: 125.0671, y: 125.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &2112793366
@@ -2750,7 +2750,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: fb90a76b4cf219540b57c45e1b2a4c21, type: 2}
+  modifier: {fileID: 11400000, guid: 228fbe79c6425a040a99cd160bed5a0a, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &2112793368
