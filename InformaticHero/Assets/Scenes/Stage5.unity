@@ -920,7 +920,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: d7ec27b8664b6714b899f0e215e8eebe, type: 2}
+  modifier: {fileID: 11400000, guid: 617e107450ab8c8469d57b4e615e3a1a, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &596541334
