@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 8
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3179f1d2b0486046bad093f403a207a, type: 2}
   m_sharedMaterial: {fileID: -8219748108086774473, guid: a3179f1d2b0486046bad093f403a207a, type: 2}
@@ -2662,4 +2662,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angkaUtama: {fileID: 1327622407}
+  angkaUtama2: {fileID: 0}
   angkaTujuan: {fileID: 1313588644}

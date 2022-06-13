@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingController : MonoBehaviour
+public class chapterController : MonoBehaviour
 {
-    public void enable(){
+        public void enable(){
         gameObject.SetActive(true);
     }
 
@@ -12,3 +12,4 @@ public class SettingController : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
+

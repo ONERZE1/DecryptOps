@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingController : MonoBehaviour
+public class Chapter1Setting : MonoBehaviour
 {
     public void enable(){
         gameObject.SetActive(true);
