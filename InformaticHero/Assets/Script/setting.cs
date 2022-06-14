@@ -1,13 +1,8 @@
-using System.Collections.Specialized;
-using System.Transactions;
-using System.Runtime.Intrinsics;
-using System.Numerics;
-using System.Threading.Tasks.Dataflow;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingWindows : MonoBehaviour
+public class setting : MonoBehaviour
 {
     private void start(){
         transform.localScale = Vector2.zero;
