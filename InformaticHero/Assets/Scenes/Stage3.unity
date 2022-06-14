@@ -920,7 +920,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: d7ec27b8664b6714b899f0e215e8eebe, type: 2}
+  modifier: {fileID: 11400000, guid: 321e468520ce6e3418fd7884469d08ae, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &596541334
@@ -943,7 +943,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b8a17a7f15651dd43887a66b0af29dbf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c250b28eb79038346ae44c943949332a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1621,7 +1621,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: 49ed19ceb9fd46c45a82463fe3a190e7, type: 2}
+  modifier: {fileID: 11400000, guid: ecdbb712373c81a47814874ee4ad806c, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &1227584670
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5bb1ebc635874ba4f9849fbe953eb027, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0dff3761fd73dbb4e8cac6dc0812b19e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1855,9 +1855,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '45
-
-'
+  m_text: 49
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3179f1d2b0486046bad093f403a207a, type: 2}
   m_sharedMaterial: {fileID: -8219748108086774473, guid: a3179f1d2b0486046bad093f403a207a, type: 2}
@@ -2882,4 +2880,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angkaUtama: {fileID: 1327622407}
+  angkaUtama2: {fileID: 0}
   angkaTujuan: {fileID: 1313588644}

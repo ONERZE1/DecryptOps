@@ -190,7 +190,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: 7cacb0d120229694c9c3ad3655655d1a, type: 2}
+  modifier: {fileID: 11400000, guid: be234d0202ce52941b84f2462f7823e9, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &203446498
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a4b47a745a0e794458b0413f3b96d821, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3124c4e137d9ce041896cc6690626d29, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1621,7 +1621,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: 4423864e3cfc4114c8ee84ceb4822c92, type: 2}
+  modifier: {fileID: 11400000, guid: 5c2a3ead0ccae5e44b064ee4f9e60083, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &1227584670
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a8f8c52981269f747afab7a05cfe92ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b876e9793cc03734db102b6d81b40ffb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2748,7 +2748,7 @@ MonoBehaviour:
   canvas: {fileID: 1837508091}
   canvasGroup: {fileID: 0}
   initialPosition: {x: 0, y: 0}
-  modifier: {fileID: 11400000, guid: 313fc0fb93c697649b4d1d90489f4fab, type: 2}
+  modifier: {fileID: 11400000, guid: 3980687c1247b9c4eb3675cbf993cb92, type: 2}
   ModNumb: 0
   ModOp: 
 --- !u!114 &2112793368
@@ -2771,7 +2771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 64f4966598312ac4fa264f52b91f0fc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9dbc9638f3f9a774494341943e4fac83, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2880,4 +2880,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angkaUtama: {fileID: 1327622407}
+  angkaUtama2: {fileID: 0}
   angkaTujuan: {fileID: 1313588644}
