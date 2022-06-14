@@ -22,6 +22,9 @@ public class GoalHandler : MonoBehaviour
         answerNumber2 = angkaUtama2.GetComponent<OnDropAngkaUtama>().angkaUtama;
         goalNumber = angkaUtama.GetComponent<OnDropAngkaUtama>().angkaTujuan;
 
+        Debug.Log(answerNumber);
+        Debug.Log(answerNumber2);
+
       
         if(answerNumber + answerNumber2 == goalNumber){
 
