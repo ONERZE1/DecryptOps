@@ -9,6 +9,8 @@ public class TimerController : MonoBehaviour
     public float timeValue;
     public TextMeshProUGUI displayedTime;
     [SerializeField] GameObject gameOver;
+    [SerializeField] GameObject gameWin;
+    [SerializeField] GameObject pause;
 
     void Update()
     {
@@ -17,16 +19,14 @@ public class TimerController : MonoBehaviour
 
     void updateTime()
     {
-        if (timeValue > 0)
-        {
+        if(gameWin.activeSelf == false && gameOver.activeSelf == false && pause.activeSelf == false){
             timeValue -= Time.deltaTime;
-        }
-        else
-        {
-            timeValue = 0;
+            displayedTime.text = "" + timeValue;
+            if(timeValue <= 0){
+                gameOver.SetActive(true);
+            }
         }
         timeDisplay(timeValue);
-        
     }
     void timeDisplay(float timeToDisplay)
     {
@@ -34,7 +34,6 @@ public class TimerController : MonoBehaviour
         if (timeToDisplay < 0)
         {
             timeToDisplay = 0;
-            gameOver.GetComponent<GameOverHandler>().trigger();
         }
 
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);

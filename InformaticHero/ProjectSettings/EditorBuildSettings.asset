@@ -9,11 +9,38 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
+    path: Assets/Scenes/StageSelection.unity
+    guid: d4b26eb70c721ae4988f06baf1a7aaa4
+  - enabled: 1
+    path: Assets/Scenes/Stage1.unity
+    guid: 65c999bdd57ece547a7a0828ba94fbfc
+  - enabled: 1
     path: Assets/Scenes/Stage2.unity
     guid: d7d31abbd1117874a875ab28eda08d9b
   - enabled: 1
-    path: Assets/Scenes/StageSelection.unity
-    guid: d4b26eb70c721ae4988f06baf1a7aaa4
+    path: Assets/Scenes/Stage3.unity
+    guid: 16736844a928cd545a0a3ca9f3ab7204
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 9fd0062071921bc48b7f7e1d6b06bc53
+  - enabled: 1
+    path: Assets/Scenes/Stage5.unity
+    guid: ad492db4006e20c44a48ba6277471449
+  - enabled: 1
+    path: Assets/Scenes/Stage6.unity
+    guid: 83c04e02c069c0944948ba340194e194
+  - enabled: 1
+    path: Assets/Scenes/Stage7.unity
+    guid: e3cab4c21183b54489d335752278eba4
+  - enabled: 1
+    path: Assets/Scenes/Stage8.unity
+    guid: 4c0aa42197189b3459d22315e69a478c
+  - enabled: 1
+    path: Assets/Scenes/Stage9.unity
+    guid: 2664a3f4ca0d0064e8811d5f3f26ec57
+  - enabled: 1
+    path: Assets/Scenes/Stage10.unity
+    guid: 258816591a4f4c542a570d74a31095ef
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8dabdb679d243ca45a0bdeca58829938, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: bf51faa0f1efe1f458307fe9a897687c, type: 2}

@@ -15,7 +15,7 @@ public class dialogBox : MonoBehaviour
         box.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
     }
 
-    public void CloseDialog(){
+    void OnDisable(){
         background.LeanAlpha(0, 0.5f);
         box.LeanMoveLocalY(-Screen.height, 0.5f).setEaseInExpo();
     }

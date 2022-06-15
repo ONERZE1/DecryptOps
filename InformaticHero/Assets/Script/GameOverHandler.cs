@@ -12,7 +12,15 @@ public class GameOverHandler : MonoBehaviour
     }
     public void restartButton()
     {
-        SceneManager.LoadScene("Stage10");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void homeButton()
+    {
+        SceneManager.LoadScene("StageSelection");
+    }
+    public void nextLevelButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }

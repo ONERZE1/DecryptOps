@@ -8,6 +8,7 @@ public class GoalHandler : MonoBehaviour
 {
     public GameObject angkaUtama;
     public GameObject angkaUtama2;
+    public GameObject gameWin;
     public TextMeshProUGUI angkaTujuan;
     int goalNumber,answerNumber,answerNumber2;
     
@@ -19,20 +20,20 @@ public class GoalHandler : MonoBehaviour
     public void isAnswerCorrect(){
 
         answerNumber = angkaUtama.GetComponent<OnDropAngkaUtama>().angkaUtama;
-        answerNumber2 = angkaUtama2.GetComponent<OnDropAngkaUtama>().angkaUtama;
+        if(angkaUtama2 != null){
+            answerNumber2 = angkaUtama2.GetComponent<OnDropAngkaUtama>().angkaUtama;
+        }
         goalNumber = angkaUtama.GetComponent<OnDropAngkaUtama>().angkaTujuan;
 
-        Debug.Log(answerNumber);
-        Debug.Log(answerNumber2);
-
-      
-        if(answerNumber + answerNumber2 == goalNumber){
-
-            Debug.Log("DAH BENER!!!");
+        if(angkaUtama2 != null){
+            if(answerNumber == goalNumber && answerNumber2 == goalNumber){
+                gameWin.SetActive(true);
+            }
         }
-        else
-        {
-            Debug.Log("BENERIN LAGI MASIH SALAH BRE");
+        else{
+            if(answerNumber == goalNumber){
+                gameWin.SetActive(true);
+            }
         }
     }
 }
