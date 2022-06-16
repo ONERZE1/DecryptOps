@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,13 +6,15 @@ using TMPro;
 public class Modifier : MonoBehaviour
 {
     public GameObject gameObj;
-    public GameObject angka;
-    int inisialAngkaUtama;
+    public GameObject angka, angka2;
+    int inisialAngkaUtama, inisialAngkaUtama2;
     public TextMeshProUGUI angkaDisplay;
     private void Awake()
     {
         angka.GetComponent<OnDropAngkaUtama>().Awake();
+        angka2.GetComponent<OnDropAngkaUtama>().Awake();
         inisialAngkaUtama = angka.GetComponent<OnDropAngkaUtama>().angkaUtama;
+        inisialAngkaUtama2 = angka2.GetComponent<OnDropAngkaUtama>().angkaUtama;
     }
 
     public void resetMod()
@@ -21,5 +24,7 @@ public class Modifier : MonoBehaviour
            gameObj.transform.GetChild(i).gameObject.SetActive(true);
         }
         angka.GetComponent<OnDropAngkaUtama>().angkaUtama = inisialAngkaUtama;
+        angka2.GetComponent<OnDropAngkaUtama>().angkaUtama = inisialAngkaUtama2;
+        
     }
 }
