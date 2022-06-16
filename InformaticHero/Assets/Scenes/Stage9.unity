@@ -3055,7 +3055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd95588ca707b94e8c78c06b1eaf321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 20
+  timeValue: 15
   displayedTime: {fileID: 441391346}
   gameOver: {fileID: 206161009}
   gameWin: {fileID: 862764428}

@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,9 +11,13 @@ public class Modifier : MonoBehaviour
     private void Awake()
     {
         angka.GetComponent<OnDropAngkaUtama>().Awake();
-        angka2.GetComponent<OnDropAngkaUtama>().Awake();
         inisialAngkaUtama = angka.GetComponent<OnDropAngkaUtama>().angkaUtama;
-        inisialAngkaUtama2 = angka2.GetComponent<OnDropAngkaUtama>().angkaUtama;
+        if(angka2 != null)
+        {
+            angka2.GetComponent<OnDropAngkaUtama>().Awake();
+            inisialAngkaUtama2 = angka2.GetComponent<OnDropAngkaUtama>().angkaUtama;
+        }
+        
     }
 
     public void resetMod()
@@ -24,7 +27,10 @@ public class Modifier : MonoBehaviour
            gameObj.transform.GetChild(i).gameObject.SetActive(true);
         }
         angka.GetComponent<OnDropAngkaUtama>().angkaUtama = inisialAngkaUtama;
-        angka2.GetComponent<OnDropAngkaUtama>().angkaUtama = inisialAngkaUtama2;
-        
+        if(angka2 != null)
+        {
+            angka2.GetComponent<OnDropAngkaUtama>().angkaUtama = inisialAngkaUtama2;
+        }
+        Debug.Log(inisialAngkaUtama);
     }
 }

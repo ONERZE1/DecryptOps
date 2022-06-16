@@ -2625,7 +2625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd95588ca707b94e8c78c06b1eaf321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 20
+  timeValue: 10
   displayedTime: {fileID: 441391346}
   gameOver: {fileID: 116469017}
   gameWin: {fileID: 474279850}
@@ -4552,5 +4552,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angkaUtama: {fileID: 1327622407}
   angkaUtama2: {fileID: 776498922}
-  gameWin: {fileID: 0}
+  gameWin: {fileID: 474279850}
   angkaTujuan: {fileID: 1313588644}

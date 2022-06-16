@@ -26,7 +26,7 @@ public class GoalHandler : MonoBehaviour
         goalNumber = angkaUtama.GetComponent<OnDropAngkaUtama>().angkaTujuan;
 
         if(angkaUtama2 != null){
-            if(answerNumber == goalNumber && answerNumber2 == goalNumber){
+            if(answerNumber + answerNumber2 == goalNumber){
                 gameWin.SetActive(true);
             }
         }
