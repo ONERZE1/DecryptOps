@@ -1128,6 +1128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObj: {fileID: 467950667}
   angka: {fileID: 1327622407}
+  angka2: {fileID: 0}
   angkaDisplay: {fileID: 242058736}
 --- !u!1 &471253580
 GameObject:
@@ -2648,7 +2649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd95588ca707b94e8c78c06b1eaf321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 5
+  timeValue: 10
   displayedTime: {fileID: 441391346}
   gameOver: {fileID: 1557883169}
   gameWin: {fileID: 1013792226}
